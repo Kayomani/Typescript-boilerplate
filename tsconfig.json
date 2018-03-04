@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "allowSyntheticDefaultImports": true,
+      "allowJs": true,
+      "checkJs": true,
+      "moduleResolution": "node",
+      "declaration": false,
+      "noImplicitAny": true,
+      "noEmit": true,
+      "pretty": true,
+      "sourceMap": true,
+      "jsx": "react",
+      "noLib": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "lib": ["es2017", "dom", "es2017.object"],
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "noEmitHelpers": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitThis":  true,
+    },
+    "compileOnSave": false,
+    "include": [
+      "src/**/*",
+      "build/typings/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
